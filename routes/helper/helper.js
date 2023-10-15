@@ -34,7 +34,7 @@ const send_mail = async (email, token) => {
         service: 'gmail',
         auth: {
             user: 'genesisblock1033@gmail.com',
-            pass: '7208393Nas@#'
+            pass: '<pass>'
         }
     })
     return await transporter.sendMail({
